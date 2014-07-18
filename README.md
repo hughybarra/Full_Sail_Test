@@ -34,8 +34,20 @@ I decided to use [BXslider](http://www.bxslider.com/) I have never used it befor
 
 I did however run into a couple of issues when resizing the browser. Sometimes the slider would crash and you would have to refresh the page. Other than that the slider works great and is fully responsive.
 
-Oh and for some reason this plugin does not work in FireFox. So the slider breaks when you view it in FireFox 
+Oh and for some reason this plugin does not work in FireFox. So the slider breaks when you view it in FireFox
 
+Found a fix for the fire fox bug! 
+[original post](http://stackoverflow.com/questions/11358558/twitter-bootstrap-repsonsive-layout-breaks-in-firefox)
+
+``You should try these things:``
+
+``1. Upgrade the firefox version you are using.``
+
+``2. Delete the cookies from your browser.``
+
+``3. Install firebug and developers toolbar to inspect the page and the problem might be in the``
+
+``.css check agains it , in the firebug by removing some properties.``
 
 ## Some of my Issues. 
 
