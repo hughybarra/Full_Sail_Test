@@ -9,6 +9,4 @@ $( document ).ready(function() {
 		controls: false,
 		autoHover: true,
 	});
-
-
 });// end doc ready function

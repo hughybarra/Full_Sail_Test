@@ -4,33 +4,36 @@
 		<meta charset="UTF-8"/>
 		<title> Full Sail </title>
 		<!-- Css Reset -->
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reset.css"/>
 
 		<!-- Get Booststrap -->
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 		<!-- my compiled less -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css"/>
 		<!-- bxSlider CSS file -->
 		<link href="css/jquery.bxslider.css" rel="stylesheet" />
 
 	</head>
-
 	<body class="container-fuild">
 
 		<nav>
-			<img src="media/images/logo.png" all="Full Sail Logo" class="col-lg-offset-1
+			<img src="media/images/logo.png" alt="Full Sail Logo" class="col-lg-offset-1
 																		 col-xs-offset-3
-																		gg6h">
+																		"/>
 		</nav>
 
-		<section class="main_content">
+		<section class="main_content row">
 
 			<div class="feature_image"></div>
 
-			<div class="col-lg-6 col-lg-offset-1 feature_body_text">
+			<div class="feature_body_text
+						col-xs-10 col-xs-offset-1
+						col-sm-10 col-sm-offset-1
+						col-lg-6 col-lg-offset-1
+						">
 				<h2>
 					Proin gravida nibh
 					vel velit auctor aliquet.
@@ -43,18 +46,59 @@
 
 			</div>
 
+			<div class="feature_form
+						col-xs-10 col-xs-offset-1
+						">
 
+				<form role="form" class="col-xs-10">
+
+					<div class="form_item">
+						<label for="form_first_name">First Name</label>
+						<input type="text" id="form_first_name" class=""/>
+					</div>
+					<div class="form_item">
+						<label for="form_last_name">Last Name</label>
+						<input type="text" id="form_last_name" class=""/>
+					</div>
+					<div class="form_item">
+						<label for="form_email">Email</label>
+						<input type="email" id="form_email" placeholder="user.name@domain.com" class=""/>
+					</div>
+					<div class="form_item">
+						<label for="form_phone">Phone</label>
+						<input type="number" id="form_phone" placeholder="xxx-xxx-xxx" class=""/>
+					</div>
+					<div class="form_item">
+						<label for="form_country_select">Country</label>
+						<select id="form_country_select">
+							<option value="us" selected="selected">US</option>
+							<option value="some country">Some Country</option>
+							<option value="some country">Some Country</option>
+							<option value="some country">Some Country</option>
+							<option value="some country">Some Country</option>
+						</select>
+					</div>
+
+					<div class="form_item">
+						<label for="form_zip">Zip </label>
+						<input type="text" id="form_zip" class=""/>
+					</div>
+
+					<div class="form_button col-xs-1">
+						<span> Submit </span>
+					</div>
+
+				</form>
+
+			</div>
+			<!-- end feature form -->
 
 		</section>
 		<!-- end Main Content -->
 
 		<div class="col-xm-12 col-lg-offset-2 areas_image">
 
-			<span class="pull-left"><img src="media/images/line.png" alt="an image dividing the page" class="focus_image img-responsive"></span>
-			<p class="pull-left">
-				AREAS OF FOCUS
-			</p>
-			<span class="pull-left"><img src="media/images/line.png" alt="an image dividing the page" class="focus_image img-responsive"></span>
+			<img src="media/images/areas_of_focus.png" alt="an image dividing the page" class="focus_image img-responsive"/>
 		</div>
 
 		<section class="areas_of_focus">
@@ -62,10 +106,12 @@
 
 			<div class="focus_item_container">
 
-				<div class="row col-lg-12">
+				<div class="row
+								col-lg-12
+								col-xs-10 col-xs-offset-1">
 
 					<div class=" col-lg-2  col-lg-offset-2 pull-left focus_item text-center">
-						<img src="media/images/focus_icon_1.png" alt="an icon" class="focus_icon">
+						<img src="media/images/focus_icon_1.png" alt="an icon" class="focus_icon"/>
 						<h3>Area Of Focus</h3>
 						<p>
 							Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
@@ -73,7 +119,7 @@
 					</div>
 
 					<div class="col-lg-2 col-lg-offset-1 pull-left focus_item text-center">
-						<img src="media/images/focus_icon_2.png" alt="an icon" class="focus_icon">
+						<img src="media/images/focus_icon_2.png" alt="an icon" class="focus_icon"/>
 						<h3>Area Of Focus</h3>
 						<p>
 							Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
@@ -81,7 +127,7 @@
 					</div>
 
 					<div class="col-lg-2 col-lg-offset-1 pull-left focus_item text-center">
-						<img src="media/images/focus_icon_3.png" alt="an icon" class="focus_icon">
+						<img src="media/images/focus_icon_3.png" alt="an icon" class="focus_icon"/>
 						<h3>Area Of Focus</h3>
 						<p>
 							Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.
@@ -94,40 +140,52 @@
 				<div class="focus_item_slider">
 
 					<ul class="bxslider">
-						<li class="row slide_style">
 
-							<img src="media/images/item_1.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1 img-responsive" />
-								<div class="col-lg-6">
-						    	<h3 class="text-uppercase slider_heading">THE FULL SAIL ONLINE EXPERIENCE</h3>
-						    	<h3>Your Mac Laptop<h3>
-						    	<h3><small>Project Launch Box&#0153;*</small></h3>
-						    	<p>Learn and create from anywhere</p>
-						    	<p>Features powerful media creation software</p>
-						    	<p>Allows for a media-rich learning experience</p>
-						    </div>
+						<!-- 1 -->
+						<li class="row slider_style col-xs-12">
+
+							<img src="media/images/item_1.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1
+																						   col-xs-10 col-xs-offset-1 img-responsive" />
+								<div class="col-lg-6
+											col-xs-10 col-xs-offset-1">
+							    	<h3 class="text-uppercase slider_heading">THE FULL SAIL ONLINE EXPERIENCE</h3>
+							    	<h3>Your Mac Laptop</h3>
+							    	<h3><small>Project Launch Box&trade;*</small></h3>
+							    	<p>Learn and create from anywhere</p>
+							    	<p>Features powerful media creation software</p>
+							    	<p>Allows for a media-rich learning experience</p>
+						    	</div>
 
 						</li>
-						<li class="row">
-							<img src="media/images/item_2.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1  img-responsive" />
-								<div class="col-lg-6">
-						    	<h3 class="text-uppercase slider_heading">THE FULL SAIL ONLINE EXPERIENCE</h3>
-						    	<h3>Connect & Collaborate </h3>
-						    	<p>
-						    		Network with classmates online
+						<!-- 2 -->
+						<li class="row slider_style col-xs-12">
+							<img src="media/images/item_2.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1
+																						   col-xs-10 col-xs-offset-2  img-responsive" />
+								<div class="col-lg-6
+											col-xs-10 col-xs-offset-2">
+							    	<h3 class="text-uppercase slider_heading">THE FULL SAIL ONLINE EXPERIENCE</h3>
+							    	<h3>Connect & Collaborate </h3>
+							    	<p>
+							    		Network with classmates online
 
-									One-click access to instructors
+										One-click access to instructors
 
-									Video conferencing
+										Video conferencing
 
-									Technical support provided
-									8 am.m. - 2 a.m. E.S.T, 7 days a week
-						    	</p>
+										Technical support provided
+										8 am.m. - 2 a.m. E.S.T, 7 days a week
+							    	</p>
 
-						    </div>
+						    	</div>
 						</li>
-						<li class="row">
-							<img src="media/images/item_3.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1  img-responsive" />
-								<div class="col-lg-6">
+
+						<!-- 3 -->
+						<li class="row slider_style col-xs-12">
+
+							<img src="media/images/item_3.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1
+																						   col-xs-10 col-xs-offset-2 img-responsive" />
+								<div class="col-lg-6
+											col-xs-10 col-xs-offset-2">
 						    	<h3 class="text-uppercase slider_heading">THE FULL SAIL ONLINE EXPERIENCE</h3>
 						    	<h3>Engaging Media-Rich Curriculum  </h3>
 						    	<p>
@@ -142,9 +200,12 @@
 
 						    </div>
 						</li>
-						<li class="row">
-							<img src="media/images/item_4.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1  img-responsive" />
-								<div class="col-lg-6">
+						<!-- 4 -->
+						<li class="row slider_style col-xs-12">
+							<img src="media/images/item_4.png" alt="slider image 1" class="col-lg-5 col-lg-offset-1
+																						   col-xs-9 col-xs-offset-2 img-responsive" />
+								<div class="col-lg-6
+											col-xs-9 col-xs-offset-2">
 						    	<h3 class="text-uppercase slider_heading">THE FULL SAIL ONLINE EXPERIENCE</h3>
 						    	<h3>Accelerated Learning </h3>
 						    	<p>
@@ -167,7 +228,7 @@
 		<footer class="text-center col-lg-12">
 
 			<p>
-				* Project LaunchBox&#0153; is a degree-specific technology package that is made available to students at a deep institutional discount. In an effort to make the most current technology available to its students, Full Sail reserve s the right to replace equipment in the student technology package in favor of newer models.
+				* Project LaunchBox&trade; is a degree-specific technology package that is made available to students at a deep institutional discount. In an effort to make the most current technology available to its students, Full Sail reserve s the right to replace equipment in the student technology package in favor of newer models.
 
 			</p>
 
@@ -187,15 +248,12 @@
 
 
 
+		<!-- Jquery jquery-1.10.2.min -->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<!-- bxSlider Javascript file -->
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 
+		<script type="text/javascript" src="js/main.js"></script>
 
 	</body>
-
-	<!-- Jquery jquery-1.10.2.min -->
-	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-	<!-- bxSlider Javascript file -->
-	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-
-	<!-- Link  main.js -->
-	<script type="text/javascript" src="js/main.js"></script>
 </html>

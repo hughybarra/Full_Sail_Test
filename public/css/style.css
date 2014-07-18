@@ -1,6 +1,10 @@
+/* feature */
 /* focus */
 /* footer */
 /* media Queries */
+.test {
+  background-color: blue;
+}
 html {
   background-color: #d4d4d4;
 }
@@ -28,9 +32,70 @@ nav img {
 .main_content .feature_body_text {
   margin-top: 10px;
 }
+.main_content .feature_form {
+  background-color: #373321;
+}
+.main_content .feature_form .form_item label {
+  margin-top: 5px;
+  color: #f5f8fa;
+  width: 100%;
+}
+.main_content .feature_form .form_item input {
+  width: 280px;
+  /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+  -webkit-border-radius: 4px;
+  /* Firefox 1-3.6 */
+  -moz-border-radius: 4px;
+  /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+  border-radius: 4px;
+}
+.main_content .feature_form select {
+  width: 280px;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.main_content .feature_form .form_button {
+  color: #f5f8fa;
+  widht: 200px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #cb6029;
+  text-align: center;
+  line-height: 45px;
+}
 .areas_image {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+.areas_of_focus {
+  background-color: #d4d4d4;
+}
+.areas_of_focus .focus_item {
+  position: relative;
+  top: -40px;
+  text-align: center;
+}
+.areas_of_focus .focus_item_slider .slider_heading {
+  color: #ffffff;
+}
+.areas_of_focus .bxslider .slider_style {
+  text-align: center;
+}
+footer {
+  background-color: #333327;
+  color: #676765;
+  padding-top: 50px;
+}
+footer a:link {
+  color: #de5b21;
+}
+footer a:visited {
+  color: #de5b21;
 }
 /*
  ██████╗ ██╗   ██╗███████╗██████╗ ██╗███████╗███████╗
@@ -41,6 +106,11 @@ nav img {
  ╚══▀▀═╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝
 */
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .feature_form {
+    position: relative;
+  }
+}
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
