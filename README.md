@@ -3,7 +3,7 @@ FUll SAIL TEST
 ============
 
 Instructions
-Please code the following PSD. When you¹re done, upload your work to a
+Please code the following PSD. When you're done, upload your work to a
 GitHub repository and send me the url.
 
 [link to document](http://media.fullsail.com/platinum/sample-for-markup.zip)
