@@ -1,9 +1,14 @@
-PHP-Template
+FUll SAIL TEST
 ============
 
-basic PHP template for quick development by Hugh Ybarra
+Technology stack 
+For this assignment I used several technologies, frameworks, and plugins. Below is a list of everything that I used. 
 
+* HTML5
+* Javascript 
+* PHP
+* Jquery
+* BXslider javascript plugin
+* CSS
+* Less Css
 
-I"m not finished building the site. I will send an email when the site is complete. I am howerver almost done. Just editing a few little things here and there. 
-
-I still need to edit a few of the images because i messed up my originals, and I have to work on making it responsive. 
