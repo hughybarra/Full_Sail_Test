@@ -1,5 +1,5 @@
 
-FUll SAIL TEST
+FULL SAIL TEST
 ============
 
 Instructions
@@ -32,9 +32,9 @@ I was not sure how precise you wanted me to stick with the PDF you gave me. I de
 ##The Slider  
 I decided to use [BXslider](http://www.bxslider.com/) I have never used it before so I experimented around a little bit with it. Those guys rock, They have great documentation and their stuff works really well. 
 
-I did however run into a couple of issues when resizing the browser. Some times the slider would crash and you would have to refresh the page. Other than that the slider works great and is fully responsive.
+I did however run into a couple of issues when resizing the browser. Sometimes the slider would crash and you would have to refresh the page. Other than that the slider works great and is fully responsive.
 
-Oh and for some reason this plugin does not work in Fire Fox. So the slider breaks when you view it in Fire Fox 
+Oh and for some reason this plugin does not work in FireFox. So the slider breaks when you view it in FireFox 
 
 
 ## Some of my Issues. 
@@ -47,5 +47,6 @@ I was having issues with the areas of focus image. It keeps sliding around like 
 
 I derped and accidentally left off a closing tag which broke my entire layout for a good 30 minutes. That was fun.
 
-Other than that I think the project was a success. I got to practice building a responsive site using bootstrap/ 
+Other than that I think the project was a success. I got to practice building a responsive site using bootstrap and I go to try out a new plugin. 
+
 
